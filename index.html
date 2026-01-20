@@ -321,5 +321,35 @@
   </script>
 
 </body>
+ <head>
+  <meta charset="UTF-8" />
+  <title>Шрифт Pudilinka</title>
+  <style>
+    /* Подключаем шрифт Pudilinka */
+    @font-face {
+      font-family: 'Pudilinka';
+      src: url('pudelinka.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    /* Класс для применения шрифта */
+    .pudilinka {
+      font-family: 'Pudilinka', monospace;
+      font-size: 1.2em;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Обычный текст</h1>
+  
+  <p>А это — <span class="pudilinka">текст шрифтом Pudilinka!</span></p>
+
+  <!-- Пример с открытым ключом из RSA -->
+  <p>Открытый ключ: <code class="pudilinka">(n, e) = (15, 3)</code></p>
+
+</body>
 </html>
-</html>
+
